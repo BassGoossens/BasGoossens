@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timepicker.js/dist/timepicker.min.css">
+
+
+    <title>Portfolio Bas Goossens</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header invert-color ">
+        <nav class="nav bd-grid ">
+            <div>
+                <img src="img/basg.png" alt="logo" id="logo">
+
+            </div>
+
+            <div class="nav__menu" id="nav-menu ">
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Over mij</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projecten</a></li>
+                    <li class="nav__item"><a href="#vidsec" class="nav__link">Video</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+
+
+
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <button id="mode-toggle">Dark/Light</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hallo,<br>Ik ben Bas<br>
+                    <span class="auto-type" style="color: var(--first-color);"></span>
+                </h1>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/bas-goossens-2744791bb/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/bas0466/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.youtube.com/@basthenics" class="home__social-icon"><i class='bx bxl-youtube'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="img/bastop_1.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Over mij</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="../img/bas.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Ik ben Bas Goossens</h2>
+                    <p class="about__text">Gepassioneerd over programmeren, ontwerpen en branding. Ik geniet ervan
+                        functionele en visueel aantrekkelijke oplossingen te creëren, waarbij ik de perfecte balans
+                        tussen gebruiksvriendelijkheid en esthetiek zoek.<br><br> Als programmeur ben ik gefascineerd
+                        door het automatiseren van complexe taken en het bieden van naadloze gebruikerservaringen.
+                        Daarnaast geloof ik in het belang van een samenhangende visuele identiteit voor merken en
+                        bedrijven.<br><br> In mijn vrije tijd duik ik in de wereld van Blender 3D, waar ik digitale
+                        werelden tot leven breng en verhalen vertel met 3D-modellen en animaties. Ik zoek altijd naar
+                        nieuwe uitdagingen en kansen om mijn vaardigheden verder te ontwikkelen. Laten we samen iets
+                        buitengewoons creëren!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Mijn Skills</h2>
+                    <p class="skills__text"> Ontdek mijn unieke set vaardigheden. Met expertise op verschillende
+                        gebieden, van technisch tot creatief, ben ik in staat om diverse uitdagingen aan te gaan. Mijn
+                        vermogen om innovatieve oplossingen te bedenken en problemen op te lossen, stelt mij in staat om
+                        waarde toe te voegen aan projecten.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-php skills__icon'></i>
+                            <span class="skills__name">PHP</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-alt skills__icon'></i>
+                            <span class="skills__name">P5JS</span>
+                        </div>
+                        <div class="skills__bar skills__p5js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">UX/UI</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-adobe skills__icon'></i>
+                            <span class="skills__name">Adobe Illustrator</span>
+                        </div>
+                        <div class="skills__bar skills__ai">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-blender skills__icon'></i>
+                            <span class="skills__name">Blender3D</span>
+                        </div>
+                        <div class="skills__bar skills__blender">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== Werk sectie voor projecten =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projecten</h2>
+
+            <div class="work__container bd-grid">
+                <a class="work__img" onclick="showPopup('num1-popup')">
+                    <img src="img/codespark.png" alt="codespark">
+                    <p class="img__description">Code Spark</p>
+                </a>
+                <a class="work__img" onclick="showPopup('num2-popup')">
+                    <img src="img/huts.png" alt="">
+                    <p class="img__description">Branding Huts Nation</p>
+                </a>
+                <a class="work__img box-mid" onclick="showPopup('num3-popup')">
+                    <img src="img/designpaper.png" alt="">
+                    <p class="img__description">The design papers</p>
+                </a>
+                <a class="work__img" onclick="showPopup('num4-popup')">
+                    <img src="img/readfest.png" alt="">
+                    <p class="img__description">Branding ReadFest</p>
+                </a>
+
+                <a class="work__img box-big" onclick="showPopup('num5-popup')">
+                    <img src="img/maruti.JPG" alt="">
+                    <p class="img__description">Maruti Design</p>
+                </a>
+                <a class="work__img box-big" onclick="showPopup('num6-popup')">
+                    <img src="img/dronedrop.png" alt="">
+                    <p class="img__description">Branding Drone Drops</p>
+                </a>
+            </div>
+        </section>
+
+
+        <!--===== POPUP text =====-->
+        <div class="popup" id="num1-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">Code Spark</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num1-popup')">Close</button>
+            </div>
+        </div>
+
+        <div class="popup" id="num2-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">Huts Nation Branding</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num2-popup')">Close</button>
+            </div>
+        </div>
+
+        <div class="popup" id="num3-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">The design papers</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num3-popup')">Close</button>
+            </div>
+        </div>
+
+        <div class="popup" id="num4-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">ReadFest Branding</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num4-popup')">Close</button>
+            </div>
+        </div>
+
+        <div class="popup" id="num5-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">Maruti</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num5-popup')">Close</button>
+            </div>
+        </div>
+
+        <div class="popup" id="num6-popup">
+            <div class="popup__content">
+                <h3 class="popup__title">Drone Drops</h3>
+                <p class="popup__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fringilla mi
+                    ac nisl volutpat posuere. In ut varius leo. Pellentesque habitant morbi tristique senectus et netus
+                    et malesuada fames ac turpis egestas.</p>
+                <button class="popup__button" onclick="closePopup('num6-popup')">Close</button>
+            </div>
+        </div>
+
+
+        <!--==== Video ====-->
+        <section class="video-section section">
+            <h2 class="section-title">Mijn AVD video</h2>
+            <div class="video-player">
+                <video id="myVideo" src="img/vid1.mp4"></video>
+                <div id="play-button" class="play-button"></div>
+                <button id="fast-forward-btn" class="fast-forward-btn button">
+
+                    <span class="fast-forward-icon">
+                        <h3>Fast Forward</h3>
+                    </span>
+                </button>
+            </div>
+            <div class="video-playlist">
+                <button class="video-btn button" data-src="img/vid1.mp4">Video 1</button>
+                <button class="video-btn button" data-src="img/vid2.MOV">Video 2</button>
+                <button class="video-btn button" data-src="img/vid3.mp4">Video 3</button>
+            </div>
+        </section>
+
+
+
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" name="name" placeholder="Name" class="contact__input">
+                    <input type="mail" name="email" placeholder="Email" class="contact__input">
+                    <textarea name="message" placeholder="Bericht" class="contact__input"></textarea>
+                    <input type="text" id="date-input" placeholder="Datum" class="contact__input" readonly>
+                    <input type="time" id="time-input" placeholder="Tijd" class="contact__input" min="09:00" max="18:00" required >
+                    <button type="button" id="booking-btn" class="contact__button button">Boeken</button>
+                </form>
+        </section>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">X</span>
+                <h3>Bedankt voor uw boeking!</br> u heeft geboekt met de volgende informatie:</h3>
+                <p id="booking-details"></p>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Bas Goossens</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/bas-goossens-2744791bb/" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/bas0466/" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/@basthenics" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Goossens. All rigths reserved</p>
+    </footer>
+
+
+
+    <!--===== javaS =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
